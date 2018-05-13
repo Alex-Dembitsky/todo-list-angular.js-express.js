@@ -1,0 +1,51 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "To Do list angular.js app using express.js and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "license": "MIT",
+  "author": "Alexandr Dembitsky <alexandr.dembitsky@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alex-Dembitsky/todo-list-angular.js-express.js.git"
+  },
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "css-loader": "^0.15.1",
+    "csswring": "^3.0.5",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
+    "http-proxy": "^1.11.1",
+    "image-webpack-loader": "^1.6.1",
+    "imagemin": "^3.2.0",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "nodemon": "^1.17.4",
+    "postcss-loader": "^0.5.1",
+    "stats-webpack-plugin": "^0.1.2",
+    "style-loader": "^0.12.3",
+    "uglify-loader": "^1.2.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
